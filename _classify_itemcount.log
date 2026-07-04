@@ -1,0 +1,16 @@
+paid+inventory item-count-mismatch bills: 383
+  ...60
+  ...120
+  ...180
+  ...240
+  ...300
+  ...360
+
+CLASSIFICATION:
+    348  genuine extra product on bill
+     18  other
+     10  PO has extra lines (bill covers subset)
+      4  charge-explained (bill extra = charges)
+      2  lines match by amount (false mismatch)
+      1  fetch-fail
+-> itemcount_classify.csv
